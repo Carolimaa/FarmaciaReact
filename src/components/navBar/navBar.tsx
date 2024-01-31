@@ -5,11 +5,11 @@ function Navbar() {
     
     return (
         <>
-        <div className='w-full bg-[#282424] text-white flex justify-center py-4'>
+        <div className='w-full bg-[#222121] text-white flex justify-center py-4'>
             <div className="container flex justify-between text-lg">
                 <div className='text-2xl font-bold uppercase'> 
                 <Link to="/">
-                    <img src={Logo} alt="" width="200" />
+                    <img src={Logo} alt="Logo Pharmacy" width="65" />
                 </Link>
                 </div>
                 <div className='flex gap-4'>
